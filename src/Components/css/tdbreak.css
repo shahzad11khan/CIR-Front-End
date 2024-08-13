@@ -1,0 +1,44 @@
+.break{
+    word-wrap: break-word;
+    width: 30%; 
+    text-overflow: ellipsis;
+}
+
+.breakpro {
+        word-wrap: break-word;
+            width: 5%;
+            text-overflow: ellipsis;
+            max-width: 5px;
+            overflow: hidden;
+            
+}
+.long{
+    max-height: 10px;
+        /* Adjust the maximum height as needed */
+        width: 30%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        overflow-y: auto;
+        /* Enable vertical scrollbar */
+}
+tr{
+    max-height: 10px;
+    overflow: hidden;
+    line-height: 1.5em;
+        /* Adjust the line height as needed */
+}
+.scrollable-column {
+    max-height: 100px;
+    /* Adjust the maximum height as needed */
+    overflow-y: auto;
+    /* Enable vertical scrollbar */
+}
+.table-responsive{
+    height: 100vh;
+        /* Set the fixed height of the container */
+        overflow-y: auto;
+}
+table{
+    width: 100%;
+        border-collapse: collapse;
+}

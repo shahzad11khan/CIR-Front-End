@@ -1,0 +1,4 @@
+/* Hide JoditEditor's status bar */
+.jodit-status-bar {
+    display: none !important;
+}

@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px) {
+    label {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    label {
+        font-size: 12px;
+    }
+    
+}
+
+#container{
+    width: 40%;
+    /* border: 3px solid black; */
+    padding: 5px;
+    margin: auto;
+    margin-top: 3px;
+    background-color: lightgray;
+    height: 20%;
+}
+
+.from-label {
+
+    float: left;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    /* font-size: 20rm; */
+    font-size: 100%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size:20px; */
+    font-size: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: -15px;
+
+}
+
+.form-check-label {
+    float: left;
+
+}
+
+#radio-label {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: 40%;
+    font-family: sans-serif;
+    font-Size: 20px;
+}

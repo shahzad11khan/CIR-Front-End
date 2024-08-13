@@ -1,0 +1,28 @@
+#container {
+    color: black;
+    margin-top: 3rem;
+
+}
+
+#Loginfrom {
+    border-radius: 5px;
+    background-Color: rgb(240, 242, 245);
+    width: 30%;
+    /* height: 400px; */
+    margin-left: 35%;
+}
+
+.Login-from-item {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+label {
+    float: left;
+}
+
+hr {
+    width: 90%;
+    margin-left: 20px;
+}
